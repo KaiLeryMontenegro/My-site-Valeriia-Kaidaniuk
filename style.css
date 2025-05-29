@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #e91e63;
+  font-size: 36px;
+}
+
+img.profile-pic {
+  width: 250px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #e91e63;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.pulse-button {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+<button class="pulse-button">Мій курс на Genius.Space</button>
+.about {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff0f6;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 0, 100, 0.1);
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.about h2 {
+  color: #e91e63;
+  margin-bottom: 15px;
+}
